@@ -1,0 +1,2 @@
+# MyQAProject
+My Java project
