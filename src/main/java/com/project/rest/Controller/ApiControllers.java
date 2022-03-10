@@ -15,7 +15,7 @@ public class ApiControllers {
 
     @GetMapping(value = "/")
     public String getPage() {
-        return "Welcome";
+        return "Welcome to your Voting Station";
     }
 
     @GetMapping(value = "/users")
@@ -36,6 +36,7 @@ public class ApiControllers {
         updatedUser.setLastName(user.getLastName());
         updatedUser.setOccupation(user.getOccupation());
         updatedUser.setAge(user.getAge());
+        updatedUser.setVoteReferenceNumber(user.getVoteReferenceNumber());
         userRepo.save(updatedUser);
         return "Updated...";
     }
