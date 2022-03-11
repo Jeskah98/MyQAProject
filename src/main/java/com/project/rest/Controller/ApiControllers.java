@@ -18,6 +18,12 @@ public class ApiControllers {
         return "Welcome to your Voting Station";
     }
 
+    @GetMapping(value = "/{name}")
+    public String getPage(@PathVariable String name){
+        User collectedUser = userRepo.findByLastName(name);
+        return collectedUser.getFirstName();
+    }
+
     @GetMapping(value = "/users")
     public List<User> getUsers() {
         return userRepo.findAll();
