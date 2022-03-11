@@ -1,6 +1,7 @@
 ## MyQAProject
 
 # My Java project
+I have creating an application for a voting site. Users are able to register their details and vote for candidates. Their information can be logged and counted to collect data on voters.
 
 # Why are we doing this?
 The ojective for this project is to display coding skills and project management learned during the QA DFESW10 Software Development course. The project is to create a backend program with full CRUD (create, read, update, delete) functionality using MySQL, Spring, Java, Git and GitHub, Jira.
