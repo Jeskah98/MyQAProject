@@ -1,5 +1,7 @@
 package com.project.rest.Models;
 
+import com.project.rest.Enums.Candidates;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -23,6 +25,12 @@ public class User {
 
     @Column
     private String occupation;
+
+    @Column
+    private int voteReferenceNumber;
+
+    private String candidateName;
+
 
     public long getId() {
         return id;
@@ -64,4 +72,20 @@ public class User {
         this.occupation = occupation;
     }
 
+    public String getVoteCandidateName() {
+        Candidates myCandidate = Candidates.getCandidate(voteReferenceNumber);
+        return myCandidate.name();
+    }
+
+    public int getVoteReferenceNumber() { return voteReferenceNumber; }
+
+    public void setVoteReferenceNumber(int voteReferenceNumber) {
+        if (voteReferenceNumber > 3) {
+            throw new IllegalArgumentException("Vote reference must be between 1 and 3");
+        }
+        if (voteReferenceNumber <1){
+            throw  new IllegalArgumentException("Vote reference must be between 1 and 3");
+        }
+        this.voteReferenceNumber = voteReferenceNumber;
+    }
 }
