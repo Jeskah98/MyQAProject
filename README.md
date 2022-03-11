@@ -20,6 +20,8 @@ Add voting feature as seperate to user account creation so more information on  
 <img width="1277" alt="SaveAPI" src="https://user-images.githubusercontent.com/93851597/157759368-438e5bda-9f90-4a82-ac31-844fdce720cc.png">
 <img width="1278" alt="UpdateAPI" src="https://user-images.githubusercontent.com/93851597/157759380-134729f5-eb55-48f9-8b16-cdc457f1f722.png">
 <img width="1281" alt="DeleteAPI" src="https://user-images.githubusercontent.com/93851597/157759383-5b38d20e-a990-46f6-bdd0-48bad169785a.png">
+<img width="1276" alt="GetCandidateInfo" src="https://user-images.githubusercontent.com/93851597/157905316-b6120aa2-cd58-40c9-8a8f-ac7dd2278a47.png">
+<img width="1275" alt="GetUser" src="https://user-images.githubusercontent.com/93851597/157905327-1e843e8f-d51e-4cd9-9ebc-e930dbb6779e.png">
 
 # Screenshots of your database to prove that data is being persisted.
 <img width="1281" alt="datab" src="https://user-images.githubusercontent.com/93851597/157756754-5b07a12c-525a-464a-a0c2-52bb62bc18db.png">
