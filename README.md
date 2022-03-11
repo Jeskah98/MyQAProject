@@ -28,5 +28,13 @@ Add voting feature as seperate to user account creation so more information on  
 
 # Screenshot of your test results, including coverage report.
 
+# Risk Assessment
+I have spent long hours working on my code which can exacerbate certain risks such as:
+- Back pains due to poor posture and sitting for long hours
+- Degredation of sight/Strain on eyesight due to many hours of looking at a screen (even more so if in a dark room)
+- Overheating laptop/computer either resulting in breakage or fire.
+- Procrasination due to easy access of internet and other distracting elements
+- Increased stress/blood pressure/anxiety due to code not working of missing of deadline.
+
 # Link to Jira Board - You must add your trainer(s) as collaborators also.
 https://jeskah.atlassian.net/jira/software/projects/MQP/boards/2
