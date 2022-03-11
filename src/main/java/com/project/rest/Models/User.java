@@ -29,6 +29,4 @@ public class User {
     @Column
     private int voteReferenceNumber;
 
-    private String candidateName;
-
 }
