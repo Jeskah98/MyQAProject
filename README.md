@@ -27,6 +27,7 @@ Add voting feature as seperate to user account creation so more information on  
 <img width="1281" alt="datab" src="https://user-images.githubusercontent.com/93851597/157756754-5b07a12c-525a-464a-a0c2-52bb62bc18db.png">
 
 # Screenshot of your test results, including coverage report.
+<img width="1267" alt="tests" src="https://user-images.githubusercontent.com/93851597/157913472-6837d719-5ecc-49fd-81aa-92b8fc5308fc.png">
 
 # Risk Assessment
 I have spent long hours working on my code which can exacerbate certain risks such as:
