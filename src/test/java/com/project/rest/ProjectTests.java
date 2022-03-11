@@ -23,11 +23,6 @@ class ProjectTests {
                 .contains("Welcome to your Voting Station");
     }
 
-    @Test
-    public void greetingShouldReturnPersonMessage() throws Exception{
-        assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/", String.class ))
-                .contains("[{\"id\":2,\"fistName\":\"James\",\"lastName\":\"McAvoy\",\"age\":33,\"occupation\":\"developer\"}]");
-    }
 
 
 
